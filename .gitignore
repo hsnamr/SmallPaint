@@ -1,0 +1,8 @@
+obj/
+*.app/
+*.o
+*.d
+*.m~
+*.h~
+.stamp
+DerivedData/
