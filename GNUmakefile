@@ -13,18 +13,15 @@ APP_NAME = SmallPaint
 SmallPaint_OBJC_FILES = \
 	main.m \
 	App/AppDelegate.m \
-	Canvas/CanvasView.m \
 	UI/PaintWindow.m
 
 SmallPaint_HEADER_FILES = \
 	App/AppDelegate.h \
-	Canvas/CanvasView.h \
 	UI/PaintWindow.h
 
 SmallPaint_INCLUDE_DIRS = \
 	-I. \
 	-IApp \
-	-ICanvas \
 	-IUI \
 	-I../SmallStepLib/SmallStep/Core \
 	-I../SmallStepLib/SmallStep/Platform/Linux

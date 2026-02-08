@@ -18,6 +18,7 @@ A simple pixel editor for GNUstep, similar to Windows Paint, Wine Paint, or Reac
   - Main menu (`SSMainMenu`)
   - Window style (`SSWindowStyle`)
   - File open/save dialogs (`SSFileDialog`)
+  - Canvas (`CanvasView`) for the drawing surface and pencil/eraser
 
 No other external libraries; uses only license-compatible GNUstep/AppKit and SmallStepLib.
 
